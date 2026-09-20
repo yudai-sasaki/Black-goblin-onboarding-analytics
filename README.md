@@ -58,5 +58,5 @@ Rather than spending engineering bandwidth on building more AI features (the "Te
 ## 🛠️ Tech Stack & Skills Used
 * Languages & Analytics: Python (Pandas, Scikit-learn, Statsmodels), SQL (PostgreSQL, CTEs)
 * Statistical Modeling: Logistic Regression, Fisher’s Exact Test, Haldane-Anscombe Corrections, Odds Ratio Analysis
-* Product & Telemetry Tools: PostHog, Supabase, BigQuery, Tableau
+* Product & Telemetry Tools: PostHog, Supabase, BigQuery
 * Domain Knowledge: SaaS Product-Led Growth (PLG), Funnel & Cohort Analysis, GDPR Privacy Constraints
