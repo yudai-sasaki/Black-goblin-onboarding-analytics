@@ -34,7 +34,7 @@ Built an event-driven pipeline connecting internal servers, PostHog, and BigQuer
 Quantitative funnel tracking revealed that **over 60% of all new users dropped off at the very first step: Initial Video Upload**. System logs confirmed high algorithmic performance (98.2% job success, <15s processing time) and 80% of drop-offs were "silent exits"—ruling out software crashes or speed issues.
 
 ### 2. Statistical Factor Estimation
-* Fisher’s Exact Test: Confirmed that completing a video upload within 24h is statistically overwhelming ($p = 3.97 \times 10^{-6}, p < 0.001$).
+* Fisher’s Exact Test: Confirmed that completing a video upload within 24h is statistically overwhelming ($p = 3.97 \times 10^{-6}).
 * Odds Ratio (Haldane-Anscombe Correction): Uploading a video increases the odds of product activation by **59.40x** (Class-Weighted Balanced Logistic Regression: **23.62x**).
 
 ### 3. Mixed-Methods Triangulation (Domain & Privacy Barrier)
