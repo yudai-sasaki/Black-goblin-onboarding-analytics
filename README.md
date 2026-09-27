@@ -51,7 +51,7 @@ Rather than spending engineering bandwidth on building more AI features (the "Te
 2. **Phase 2 (Medium-Term Arch - Months 2–3): Client-Side WebAssembly (Wasm)**
    * Transitioned computer vision inference from cloud servers to local browsers via Wasm/WebGPU.
    * Impact: Guaranteed media privacy and significantly reduced cloud GPU server costs.
-3. **Phase 3 (Long-Term Scalability - Months 4–6): Local-First Desktop App (Tauri / Electron)**
+3. **Phase 3 (Long-Term Scalability - Months 4–6): Local-First Desktop App**
    * Deployed an air-gapped native desktop app satisfying TPN security audits for major Hollywood studios.
 
 ---
