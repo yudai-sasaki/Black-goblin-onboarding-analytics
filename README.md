@@ -55,6 +55,12 @@ Rather than spending engineering bandwidth on building more AI features (the "Te
    * Deployed an air-gapped native desktop app satisfying TPN security audits for major Hollywood studios.
 
 ---
+## ⚠️️ Limitations
+
+* Prioritizing Delivery Speed Over Causal Inference:  
+  Due to a fundamental tracking limitation, where PostHog anonymous `person_id` was disconnected from the internal Supabase `user_id`, individual user behavioral logs could not be unified. To deliver immediate strategic value for the product team, this initial phase prioritized rapid correlation and funnel modeling over deep causal inference (e.g., Propensity Score Matching).
+
+---
 ## 🛠️ Tech Stack & Skills Used
 * Languages & Analytics: Python (Pandas, Scikit-learn, Statsmodels), SQL (PostgreSQL, CTEs)
 * Statistical Modeling: Logistic Regression, Fisher’s Exact Test, Haldane-Anscombe Corrections, Odds Ratio Analysis
